@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/dk_bttn"
+        android:layout_width="@dimen/card_radio_w"
+        android:layout_height="@dimen/card_radio_h"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_weight="1"
+        android:background="@drawable/dk_btn" />
+
+    <Button
+        android:id="@+id/qr_bttn"
+        android:layout_width="@dimen/card_radio_w"
+        android:layout_height="@dimen/card_radio_h"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_weight="1"
+        android:background="@drawable/qr_btn" />
+
+    <Button
+        android:id="@+id/nfc_bttn"
+        android:layout_width="@dimen/card_radio_w"
+        android:layout_height="@dimen/card_radio_h"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_weight="1"
+        android:background="@drawable/nfc_btn" />
+
+</LinearLayout>
